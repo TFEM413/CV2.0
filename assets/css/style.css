@@ -64,8 +64,17 @@ main{
 ul{
     display: flex;
     flex-direction: column;
+    list-style-type: none;
 }
-ul li{
+.comp li{
     display: inline-flex;
     justify-content: space-between;
+}
+.point li::before{
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: #17abb3;
+    margin-right: 7px;
 }
