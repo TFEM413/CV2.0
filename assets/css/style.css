@@ -49,6 +49,9 @@ h2{
     font-weight: normal;
     margin-left: 20px;
 }
+h3{
+    color: #17abb3;
+}
 main{
     display: inline-flex;
 }
@@ -77,4 +80,20 @@ ul{
     height: 7px;
     background-color: #17abb3;
     margin-right: 7px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+data{
+    color: #17abb3;
+}
+.date{
+    color: #17abb3;
 }
