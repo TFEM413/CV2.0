@@ -53,7 +53,7 @@ h3{
     color: #17abb3;
 }
 main{
-    display: inline-flex;
+display: inline-flex;
 }
 .gauche{
     width: 27%;
@@ -96,4 +96,15 @@ data{
 }
 .date{
     color: #17abb3;
+}
+.button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #e3e3e3;
+    border-left:7px solid #17abb3;
+}
+.test{
+    align-items: flex-end;
 }
