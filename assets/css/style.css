@@ -56,8 +56,16 @@ main{
     width: 27%;
     background-color: #e3e3e3;
     padding: 0px 10px 0px 10px;
-  }
-  .droite{
+}
+.droite{
     width: 73%;
     margin: 0px 0px 0px 20px;
-  }
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+    display: inline-flex;
+    justify-content: space-between;
+}
