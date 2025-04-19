@@ -49,3 +49,15 @@ h2{
     font-weight: normal;
     margin-left: 20px;
 }
+main{
+    display: inline-flex;
+}
+.gauche{
+    width: 27%;
+    background-color: #e3e3e3;
+    padding: 0px 10px 0px 10px;
+  }
+  .droite{
+    width: 73%;
+    margin: 0px 0px 0px 20px;
+  }
