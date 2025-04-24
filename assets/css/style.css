@@ -73,6 +73,9 @@ ul{
     display: inline-flex;
     justify-content: space-between;
 }
+.comp li em{
+    font-weight: bold;
+}
 .stars{
     color: #17abb3;
 }
@@ -107,4 +110,16 @@ data{
 .button:hover{
     background-color: #e3e3e3;
     border-left:7px solid #17abb3;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #17abb3;
+    color: #ffffff;
+}
+footer div img{
+    height: 30px;
+    width: 30px;
+    margin: 10px 0px 0px 0px;
 }
